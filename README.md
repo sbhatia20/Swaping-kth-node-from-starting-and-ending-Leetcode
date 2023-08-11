@@ -1,1 +1,2 @@
 # Swaping-kth-node-from-starting-and-ending-Leetcode
+We are traversing the whole list. Let's say k = 3, so we have to swap the 3rd as well as the 7th node (from starting). The first loop points the temp1 pointer at the third node. The second loop will iterate till n nodes, but we have to reach the (n-k)th position from the start; hence, temp2 should only be moved n-k steps. So to do this, we have applied the condition that temp2 should only be moved when j >= k.
